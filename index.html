@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="imagem/ico" href="icons/twitter.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title> Twitter </title>  
+  </head>
+  <body>
+    <nav class="topbar"> 
+      <img src="icons/twitter.svg" alt="Twitter" class="twitter-img-top">
+      <h1> Twitter </h1>
+    </nav>
+
+    <div class="container">
+      <sidebar>
+        <div class="user-profile">
+          <img class="img-profile" src="img/fotoPerfil.jpg">
+          <div class="user-name">
+            <p class="name"> Vanessa Yoshida </p><br>
+            <p> @Vanessa_Yoshida </p><br>
+          </div>
+        </div>
+      </sidebar>
+
+      <main class="content">
+        <form class="twitter-form" action="#">
+          <div class="column-1">
+            <img class="img-profile" src="img/fotoPerfil.jpg">
+          </div>
+          <div class="column-2">
+            <textarea id="tweet-textarea" placeholder="O que está acontecendo?"></textarea>
+            <div id="caracteres">140</div>
+            <button id="send-tweet" type="submit" disabled="true"> Twetar </button>
+          </div>
+        </form>
+        <section id="tweets"></section>
+      </main>
+    </div>
+    <script src="twitter.js"></script>
+  </body>
+  </html>
