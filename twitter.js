@@ -1,5 +1,6 @@
 
 let textarea = document.getElementById('tweet-textarea');
+
 textarea.addEventListener('input',featuresBotton, false);
 
 function featuresBotton(){
@@ -24,6 +25,12 @@ function featuresBotton(){
         document.getElementById("send-tweet").disabled=true;
         document.getElementById("caracteres").style.color = "#001f36";
     }
+}
+
+document.getElementById('tweet-textarea').addEventListener('keyup',size)
+function size(event){
+    let textBox = textarea.value.split('\n');
+    textarea.setAttribute('rows', textBox.length);
 }
 
 let btnClick = document.getElementById('send-tweet');
