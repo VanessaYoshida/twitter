@@ -46,10 +46,11 @@ h1 {
     flex-grow: 2;
     margin: 10px;
     background: white;
+    height: fit-content;
 }
 
 .twitter-form {
-    padding: 10px;
+    padding: 17px;
     background-color: #EAF8FD;
     display: flex;
     height: auto;
