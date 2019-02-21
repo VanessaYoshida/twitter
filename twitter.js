@@ -29,8 +29,10 @@ function featuresBotton(){
 
 document.getElementById('tweet-textarea').addEventListener('keyup',size)
 function size(event){
-    let textBox = textarea.value.split('\n');
-    textarea.setAttribute('rows', textBox.length);
+        while (textarea.scrollHeight > textarea.offsetHeight)
+        {
+            textarea.rows += 1;
+        }
 }
 
 let btnClick = document.getElementById('send-tweet');
