@@ -21,6 +21,7 @@ function featuresBotton(){
         document.getElementById("caracteres").style.color = "#e44778";
     }    
     else {
+        document.getElementById("send-tweet").disabled=true;
         document.getElementById("caracteres").style.color = "#001f36";
     }
 }
