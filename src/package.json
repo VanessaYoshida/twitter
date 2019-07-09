@@ -2,7 +2,7 @@
   "name": "twitter",
   "version": "1.0.0",
   "description": "Projeto que faz um feed de noticias como o do Twitter que conta os caracteres e mostra data e hora.",
-  "main": "twitter.js",
+  "main": "./docs/src/scripts/twitter.js",
   "scripts": {
     "server": "live-server"
   },
