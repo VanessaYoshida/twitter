@@ -1,9 +1,22 @@
-# twitter
-Nesse projeto o objetivo foi replicar o Feed de noticias do Twitter.
+# Twitter
+Nesse projeto o objetivo foi replicar o Feed de notícias do Twitter.
 
-#Sobre
-Ele foi feito cm HTML, Javascript e Css.
-Foi passado para o usuário um limite de 140 letras para digitar, e para isso utilizei um evento para contar a quantidade de letras digitadas. Se a pessoa não digitar nada ou digitar mais de 140 letras, o botão de Twittar é desabilitado, não dando a possibilidade do usuário ultrapassar a quantidade ou não digitar nada.  
+Link para acessar o site: ![Link Github Pages](https://vanessayoshida.github.io/twitter) 
+
+#Instalação
+```node
+
+> npm install
+> npm run server
+
+```
+
+#Ferramentas
+Esse projeto foi feito em Javascript Vanilla, HTML e Css.
+E também foi utilizado o Eslint para encontrar padrões problemáticos ou códigos que não seguem determinadas diretrizes de estilo.
+
+#Funcionalidades
+Foi passado para o usuário um limite de 140 letras para digitar, e para isso utilizei um evento para contar a quantidade de letras digitadas. Se a pessoa não digitar nada ou digitar mais de 140 letras, o botão de Twittar é desabilitado, não dando a possibilidade do usuário ultrapassar a quantidade ou não digitar nada. Para cada publicação ele pega a data e horário atual.
 
 
 # Versão 0.0.1
@@ -22,5 +35,5 @@ Se você passar os 120 caracteres, mostra o contador com outra cor.
 Se você passar os 130 caracteres, mostra o contador com outra cor.
 Se você passar os 140 caracteres, mostra o contador em negativo.
 
-# Versão 0.0.4
+# Versão 0.0.4 - Atual
 Ao pressionar enter (/n) ele aumenta a área de texto de acordo com o tamanho do texto.

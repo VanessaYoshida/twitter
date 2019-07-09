@@ -1,0 +1,33 @@
+{
+  "name": "twitter",
+  "version": "1.0.0",
+  "description": "Projeto que faz um feed de noticias como o do Twitter que conta os caracteres e mostra data e hora.",
+  "main": "twitter.js",
+  "scripts": {
+    "server": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanessaYoshida/twitter.git"
+  },
+  "keywords": [
+    "feed",
+    "noticias",
+    "twitter",
+    "data",
+    "hora",
+    "caracteres"
+  ],
+  "author": "Vanessa Yoshida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VanessaYoshida/twitter/issues"
+  },
+  "homepage": "https://vanessayoshida.github.io/twitter",
+  "dependencies": {
+    "eslint": "^6.0.1"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
