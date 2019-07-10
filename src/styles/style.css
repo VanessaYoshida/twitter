@@ -36,9 +36,6 @@ h1 {
     display: flex;
     width: 60%;
     margin: 0 auto;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     font-size: 16px;
 }
 
@@ -98,16 +95,16 @@ h1 {
 }
 
 .user-profile {
-    padding: 10px;
     background-color: #2FC2EF;
     display: flex;
     height: 180px;
-    width: 290px;
+    width: 220px;
+    border-radius: 20%;  
+    margin: 10px;
 }
 
 .user-name {
     flex-direction: column;
-    margin: 20px;
 }
 .name {
     font-weight: bold;

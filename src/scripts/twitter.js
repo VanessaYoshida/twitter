@@ -41,7 +41,7 @@ btnClick.addEventListener('click', addTweet, false);
 let tweetHTML = (header, content, footer) => {
   return `<article>
   <div class="column-1">
-  <img class="img-profile" src="img/fotoPerfil.jpg">
+  <img class="img-profile" src="./src/img/fotoPerfil.jpg">
   </div>
   <div class="column-2">
   <header>${header}</header>
